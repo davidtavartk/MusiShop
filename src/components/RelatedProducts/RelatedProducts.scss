@@ -1,0 +1,31 @@
+.relatedproducts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 80px;
+
+
+  h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: #252525;
+    margin-top: 10px;
+  }
+
+  .relatedproducts-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 20px;
+  }
+}

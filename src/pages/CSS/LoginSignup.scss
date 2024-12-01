@@ -1,0 +1,131 @@
+.loginsignup {
+  width: 100%;
+  background: #9b979b;
+  padding: 100px 0;
+
+  .loginsignup-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 70%;
+    background: #fff;
+    margin: auto;
+    padding: 40px 60px;
+
+    .loginsignup-fields {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-top: 30px;
+
+      button {
+        height: 60px;
+        color: white;
+        background: #646060;
+        border: none;
+        font-size: 24px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      .loginsignup-toggle {
+        margin-top: 20px;
+        color: #5c5c5c;
+        font-size: 18px;
+        font-weight: 500;
+
+        span {
+          color: #6d6161;
+          font-weight: 600;
+          cursor: pointer;
+
+          &:hover {
+            color: #4b4343;
+          }
+        }
+      }
+
+      input {
+        height: 70px;
+        padding-left: 20px;
+        border: 1px solid #c9c9c9;
+        outline: none;
+        color: #424242;
+        font-size: 18px;
+      }
+
+      .loginsignup-agree {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        color: #5c5c5c;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .separator {
+        text-align: center;
+        color: #5c5c5c;
+        position: relative;
+      }
+
+      .separator::before,
+      .separator::after {
+        content: "";
+        display: inline-block;
+        width: 45%;
+        height: 1px;
+        background: #c9c9c9;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .separator::before {
+        left: 0;
+      }
+
+      .separator::after {
+        right: 0;
+      }
+
+      .facebook-button {
+        height: 60px;
+        color: white;
+        background: #4267b2;
+        border: none;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        &:hover {
+          background: #365899;
+        }
+
+        i {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .loginsignup {
+    padding: 0;
+    border-top: 1px solid grey;
+
+    .loginsignup-container {
+      width: 100%;
+      margin: 0;
+      .loginsignup-fields {
+        .facebook-button {
+          font-size: 14px;
+        }
+      } 
+    }
+  }
+}

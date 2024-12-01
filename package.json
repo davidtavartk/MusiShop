@@ -1,0 +1,35 @@
+{
+  "name": "marketing-platform",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@eslint/config-array": "^0.19.0",
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "glob": "^11.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-facebook": "^9.0.12",
+    "react-icons": "^5.2.1",
+    "react-paginate": "^8.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-toastify": "^10.0.6",
+    "sass": "^1.77.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^9.16.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
