@@ -17,7 +17,7 @@ const App = () => {
   return (
     <div className="container">
       <BrowserRouter>
-      <ToastContainer autoClose={3000} hideProgressBar={true} theme="dark"/>
+      <ToastContainer autoClose={10400} hideProgressBar={true} theme="dark"/>
         <Navbar />
         <Routes>
           <Route path={routePaths.Home} element={<Home />} />

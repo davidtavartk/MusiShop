@@ -1,5 +1,4 @@
-@use '../../styles/variables' as *;
-
+@use "../../styles/variables" as *;
 
 .navbar {
   width: 100%;
@@ -207,6 +206,7 @@
   .mobile-menu-item a {
     color: black;
     font-size: 20px;
+    font-weight: 500;
   }
 
   .mobile-menu-open {
@@ -227,15 +227,17 @@
 
       a {
         padding: 10px;
+        li {
+          color: #000;
+        }
+
+        &:hover {
+          padding-left: 30px;
+          border-left: 1px solid #706f6f;
+          transition: padding-left 0.3s ease;
+        }
       }
-      a li {
-        color: #000;
-      }
-      a:hover {
-        padding-left: 10px;
-        border-left: 1px solid #706f6f;
-        transition: padding-left 0.3s ease;
-      }
+
       .left-border {
         padding-left: 10px;
         border-left: 1px solid #706f6f;
